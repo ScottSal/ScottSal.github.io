@@ -1,0 +1,168 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+section {
+    background-color: #fff;
+    border: solid 1px #ccc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #4aaaa5;
+    letter-spacing: 1px;
+    padding: 0.7rem;
+}
+
+a,
+a:hover {
+    text-decoration: rgb(250, 135, 141);
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 2rem;
+    padding: 1rem 0;
+    border-bottom: 2px solid #ccc;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ccc;
+}
+
+p a {
+    color: #4aaaa5;
+}
+
+nav a {
+    font-size: 1 rem;
+    color: #777;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+a.portfolio {
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+}
+
+div.content p {
+    line-height: 2rem;
+}
+
+img.profile {
+    width: 175px;
+    height: 200px;
+    margin-right: 1.5rem;
+}
+
+div.wrapper {
+    background-image: url('../images/funky-lines.png');
+    background-attachment: fixed;
+    flex: 1 0 auto;
+    border-top: 2px solid #ccc;
+    background-size: cover;
+}
+
+footer {
+    flex-shrink: 0;
+    border-top: 4px solid #4aaaa5;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    padding: .8rem 0;
+    color: #fff;
+    background-color: #777;
+}
+
+.btn {
+    color: #fff;
+    background-color: #4aaaa5;
+    border: 2px solid #4aaaa5;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: #4aaaa5;
+    background-color: #fff;
+}
+
+div.portfolio {
+    display: inline-block;
+    transition: 0.3s;
+}
+
+div.portfolio:hover {
+    box-shadow: 0 0 10px 5px purple;
+}
+
+img.portfolio-image {
+    width: 300px;
+    height: 200px;
+}
+
+h4.image-text {
+    font-size: 1rem;
+    margin-bottom: 0;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+.aside {
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #fff; 
+    height: 100px;
+    width: 50px;
+    border: solid 1px #ccc;  
+}
+
+img.social-logo {
+    height: 55px;
+    width: 55px;
+}
+
+img.social-logo:hover {
+    box-shadow: 0 0 10px 5px lightcoral;
+}
+
+@media screen and (min-width: 576px) {
+    img.profile {
+      width: 200px;
+    }
+  }
