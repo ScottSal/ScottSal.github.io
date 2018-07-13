@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mario Party RPG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/question_box.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <nav class="navbar fixed-top">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12";>
+                <img id="headerImg" class="img-fluid" src="assets/images/header_img.png" alt="Mario Party">
+            </div>
+        </div>
+    </nav>
+    <!-- Character & Opponent Selection -->
+    <div class="container">
+        <div class="col-sm-12 col-sm-12 col-md-12 col-lg-12";>
+            <div class="character_selection">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p id="prompts">Select Your Characters</p>
+
+                        <div id="characterOptions">
+                            <div class="character" id="Mario"><img src="assets/images/character_mario.png" alt="Mario">
+                            <p>Mario</p>
+                            <p class="HPdisplay" id="MarioHP">220 HP</p>
+                            </div>
+                            <div class="character" id="Luigi"><img src="assets/images/character_luigi.png" alt="Luigi">
+                            <p>Luigi</p>
+                            <p class="HPdisplay" id="LuigiHP">195 HP</p>
+                            </div>
+                            <div class="character" id="PrincessPeach"><img src="assets/images/character_princess_peach.png" alt="Princess Peach">
+                            <p>Princess Peach</p>
+                            <p class="HPdisplay" id="PrincessPeachHP">200 HP</p>
+                            </div>
+                            <div class="character" id="Yoshi"><img src="assets/images/character_yoshi.png" alt="Yoshi">
+                            <p>Yoshi</p>
+                            <p class="HPdisplay" id="YoshiHP">205 HP</p>
+                            </div>
+                            <div class="character" id="Bowser"><img src="assets/images/character_bowser.png" alt="Bowser">
+                            <p>Bowser</p>
+                            <p class="HPdisplay" id="BowserHP">225 HP</p>
+                            </div>
+                            <div class="character" id="Wario"><img src="assets/images/character_wario.png" alt="Wario">
+                            <p>Wario</p>
+                            <p class="HPdisplay" id="WarioHP">215 HP</p>
+                            </div>
+                            <div class="character" id="Waluigi"><img src="assets/images/character_waluigi.png" alt="Waluigi">
+                            <p>Waluigi</p>
+                            <p class="HPdisplay" id="WaluigiHP">190 HP</p>
+                            </div>
+                            <div class="character" id="Goomba"><img src="assets/images/character_goomba.png" alt="Goomba">
+                            <p>Goomba</p>
+                            <p class="HPdisplay" id="GoombaHP">185 HP</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                        <div id="opponentOptions"></div>
+
+                </div>
+            </div>
+            <!--Where characters/opponents and buttons occur-->
+            <div class="battle_arena">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="leftWarpPipe"><img class="left_warp_pipe" src="./assets/images/left_warp_pipe.png"></div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div id="character_display"></div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="score-display"></div>
+                        <div id="messageLog">
+                            <p>     </p>
+                        </div>
+                        <br>
+                        <button class="attackButton">ATTACK</button>
+                        <button class="restartButton">RESTART</button>
+                    </div>
+                    <div class="col-lg-3">
+                        <div id="enemy_display"></div>
+                        <div class="enemyOpponent"></div>
+                        <div class="opponentSelected"></div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="rightWarpPipe"><img class="right_warp_pipe" src="./assets/images/right_warp_pipe.png"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
