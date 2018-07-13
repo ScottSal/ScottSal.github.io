@@ -1,0 +1,414 @@
+/* Custom Styles */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+  }
+  body {
+      background-image: url("../images/funky-lines.png");
+      background-size: 100%;
+      min-height: 100%;
+      width: 100%;
+      position: relative;
+      margin: 0;
+      padding-bottom: 10rem;
+  }
+  /* Typogrophy */
+  h1 {
+      font: 700 22px/26px Georgia, Times, "Times New Roman", serif;
+  }
+  h2 {
+      font: 700 20px/24px Georgia, Times, "Times New Roman", serif;
+  }
+  h3 {
+      font: 700 18px/24px Georgia, Times, "Times New Roman", serif;
+  }
+  h2,
+  h3 {
+      color: #4aaaa5;
+  }
+  p,
+  label,
+  textarea {
+      font: 300 14px/20px 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      color: #777;
+      padding: 0 10px 0 5px;
+  }
+  p{
+      line-height: 150%;
+  }
+  label {
+      padding: 0;
+  }
+  small {
+      font: 300 10px/14px 'Georgia', Times, Times New Roman, serif;
+      color: #fff;
+  }
+  .submit-button {
+      color: #fff;
+      font: 300 14px/20px 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  /* Clearfix */
+  .text-wrapped-image:before;
+  .text-wrapped-image:after {
+      content: "";
+      display: table;
+  }
+  .text-wrapped-image:after {
+      clear: both;
+  }
+  .text-wrapped-image {
+      clear: both;
+      zoom: 1;
+  }
+  /* Grid */
+  .container {
+      width: 960px;
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      top: 90px;
+      margin-bottom: 15px;
+  }
+  .primary-box {
+      width: 620px;
+      height: 500px;
+      display: inline-block;
+      background: #fff;
+      padding: 15px 5px;
+      border: none;
+      margin: 20px 15px 30px;
+      border: solid;
+      border-color: #ccc;
+      border-width: 1px;   
+  }
+  .primary-box-tall {
+      width: 620px;
+      height: 790px;
+      display: inline-block;
+      background: #fff;
+      padding: 15px 5px;
+      border: none;
+      margin: 20px 15px 30px;
+      border: solid;
+      border-color: #ccc;
+      border-width: 1px;
+      z-index: 1;  
+  }
+  aside {
+      width: 250px;
+      height: 125px;
+      display: inline-block;
+      background: #fff;
+      padding: 15px;
+      margin: 2px 10px 2px;
+      position: absolute;
+      top: 16px;
+      border: solid;
+      border-color: #ccc;
+      border-width: 1px;
+      text-align: center;
+  }
+  small {
+      display: block;
+      padding: 35px;
+      text-align: center;
+  }
+  #headerbar {
+      background: #FFF;
+      width: 100%;
+      height: 86px;
+      border: solid;
+      border-color: #ccc;
+      position: absolute;
+      top: -3px;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      border-width: 1px;
+      margin-bottom: 5px;
+  }
+  #head-container {
+      display: block;
+      position: relative;
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #footerbar {
+      position: absolute;
+      bottom: 0;
+      display: block;
+      background: #727272;
+      height: 86px;
+      border: solid;
+      border-color: #4aaaa5;
+      border-bottom: none;
+      border-right: none;
+      border-left: none;
+      border-width: 5px;
+      font: white;
+      width: 100%;
+  }
+  .primary-box-heading {
+      display: block;
+      background-color: #fff;
+      position: absolute;
+      border-bottom: solid;
+      border-bottom-color: #ccc;
+      border-width: 1px;
+      width: 606px;
+      text-align: left;
+      text-indent: 10px;
+      padding: 8px 0 16px 0;
+  }
+  .box-heading {
+      display: block;
+      background-color: #fff;
+      position: absolute;
+      border-bottom: solid;
+      border-bottom-color: #ccc;
+      border-width: 1px;
+      width: 220px;
+      padding: 2px 0 6px 0;
+      margin-left: 10px;
+  }
+  .social-media {
+      display: block;
+      position: absolute;
+  }
+  .text-wrap {
+      position: relative;
+      font-size: 18px;
+      top: 70px;
+      left: 5px
+  }
+  form {
+      padding: 2px 8px;
+      position: absolute;
+      top: 100px;
+  }
+  input,
+  textarea {
+      position: relative;
+      display: block;
+      width: 580px;
+      padding: 5px;
+      margin: 10px 5px;
+  }
+  input {
+      height: 20px;
+  }
+  textarea {
+      height: 200px;
+  }
+  .portfolio-image-div {
+      position: relative;
+      display: inline-block;
+      height: auto;
+      width: 45%;
+      top: 76px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 8px 10px;
+  }
+  .photo-text {
+      display: inline;
+      background: #4aaaa5;
+      padding: 7px 0;
+      margin: 0;
+      width: 93.5%;
+      font: 300 20px/26px Georgia, Times, "Times New Roman", serif;
+      color: #eee;
+      text-align: center;
+      z-index: 3;
+      position: absolute;
+      bottom: 30px;
+  }
+  /* Images */
+  .social-logo {
+      display: inline-block;
+      width: 30%;
+      height: auto;
+      padding: 10px 0 10px 0;
+      margin-top: 35px;
+      margin-left: 2px;
+      margin-right: 2px;
+  }
+  #profile-photo {
+      float: left;
+      width: auto;
+      height: 175px;
+      padding: 5px 10px;
+      position: relative;
+      top: 70px;
+  }
+  .portfolio-image {
+      padding: 10px 0 10px 0;
+      z-index: 2;
+      position: relative;
+      width: 100%;
+      height: 200px;
+  }
+  /* Navigation */
+  .navigation {
+      color: #777;
+      display: inline-block;
+      right: 20px;
+      top: 10px;
+      font: 300 16px/18px Georgia, Times, "Times New Roman", serif;
+      position: absolute;
+      padding: 25px 0;
+      text-decoration: none;
+      font-size: 18px;
+      
+  }
+  /* Header */
+  logo {
+      display: inline-block;
+      background: #4aaaa5;
+      padding: 30px 15px;
+      font: small-caps 700 22px/26px Georgia, Times, "Times New Roman", serif;
+      color: #eee;
+      text-align: center;
+      position: relative;
+      left: 15px;
+  }
+  /* Buttons */
+  .button {
+      padding: 3px 0 3px 15px;
+      margin: 0;
+  }
+  .border-right {
+      -webkit-border-right: solid;
+          -moz-border-right: solid;
+              border-right: solid;
+      padding: 3px 15px;
+      border-color: #ccc;
+      border-width: 1px;
+  }
+  .submit-button {
+      position: relative;
+      height: 30px;
+      width: 100px;
+      padding:0;
+      border: 0;
+      margin: 0;
+      background-color: #4aaaa5;
+      text-align: center;
+  }
+  /* Links */
+  
+  a {
+      color: #777;
+      text-decoration: none;
+  }
+  a:hover {
+      color: #323232;
+  }
+  img {
+      -webkit-filter: brightness(100%);
+  }
+  
+  a img:hover {
+      -webkit-filter: brightness(70%);
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+  }
+
+  #footerbar {
+	position: absolute;
+	bottom: 0;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+	
+}
+@media screen and (max-width: 768px) {	
+	
+}
+@media screen and (max-width: 640px) {	
+    .primary-box {
+        height: 500px;
+        width: 75%;
+    }
+    .container {
+        width: 75%;
+    }
+    .text-wrap {
+        font-size: 80%;
+        height: auto;
+    }
+    #head-container {
+        position: relative;
+        width: 75%;
+    }
+    #headerbar {
+        width: 100%;
+        position: relative;
+    }
+
+    .primary-box-heading {
+        width: 35%;
+        align-content: flex-start;
+    }
+    aside {
+        position: relative;
+        width: 60%;
+        align-self: center;
+    }
+    .navigation {
+        width: 100%;
+        position: relative;
+        display: initial;
+        align-items: flex-start;
+        background-color: #fff;
+    }
+    logo {
+        position: relative;
+        align-self: auto;
+        width: 100%
+    }
+    #footerbar {
+        width: 100%;
+    }
+    #profile-image {
+        height: 45%;
+        width: 45%;
+        position: relative;
+    }
+    input,
+    textarea {
+        width: auto;
+    }
+    .button {
+        position: relative;
+    }
+    .primary-box-tall {
+        width: 90%;
+        height: auto;
+    }
+    .portfolio-image {
+        width: 90%;
+        height: 90%;
+        position: relative;
+    }
+    .social-logo {
+        width: 40px;
+        height: 40px;
+        align: center;
+    }
+    .photo-text {
+        width: 60%;
+        font-size: 12px;
+        position: relative;
+    }
+}
