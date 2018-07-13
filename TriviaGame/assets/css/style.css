@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+/* Custom Styles */
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/splat_background.png);
+    background-size: 100%;
+    background-color: limegreen;
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    height: auto;
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 2px;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+p {
+    text-shadow: 2px 2px 4px #000;
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    font: 700 32px/34px 'Architects Daughter', cursive;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: 10px 5px;
+}
+
+h2 {
+    color: white;
+    font: 300 30px/32px 'Architects Daughter', cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    color: white;
+    font: 300 28px/32px 'Architects Daughter', cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+h4 {
+    color: white;
+    font: 700 23px/26px 'Architects Daughter', cursive;
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    font: 300 16px/20px 'Architects Daughter', cursive;
+    padding: 5px;
+    text-align: center;
+}
+
+em {
+    font-style: italic;
+}
+
+/* Grid */
+
+#header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#angry_beavers {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    position: relative;
+    margin-left: 700px;
+}
+
+#arnold {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    position: relative;
+}
+
+#catdog {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    position: relative;
+}
+
+#chuckie {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    position: relative;
+}
+
+#doug {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    position: relative;
+    margin-left: 700px;
+}
+
+#kablam {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    position: relative;
+    margin-left: 700px;
+}
+
+#rocket_power {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    position: relative;
+    margin-left: 700px;
+}
+
+#rocko {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    position: relative;
+}
+
+#start-button {
+    color: rgb(255, 115, 0);
+    background-color: white;
+    font: 500 22px/26px 'Architects Daughter', cursive;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 5px double limegreen;
+}
+
+#start-button:hover {
+    color: rgb(255, 115, 0);
+    background-color: limegreen;
+    transform: scale(1.1);
+    border: 5px double white;
+}
+
+#reset-button {
+    color: rgb(255, 115, 0);
+    background-color: white;
+    font: 500 22px/26px 'Architects Daughter', cursive;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 5px double limegreen;
+}
+
+#reset-button:hover {
+    color: rgb(255, 115, 0);
+    background-color: limegreen;
+    transform: scale(1.1);
+    border: 5px double white;
+}
+
+.container {
+    display: block;
+    /*background-color: rgb(255, 115, 0);*/
+    width: 75%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.answer-choices {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    z-index: 2;
+}
+
+#correct-answers,
+#incorrect-answers,
+#unanswered {
+    display: inline-block;
+}

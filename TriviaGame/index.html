@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>90's Nickelodeon Cartoon Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/splat_logo.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+<body>
+    <!-- Welcome screen-->
+    <div id="welcome-screen" class="container">
+
+        <img id="header" src="assets/images/header_image.png" alt="90's Nickelodeon Cartoon Trivia">
+        <h1>Test your knowledge!</h1>
+        <button id="start-button">Start!</button>
+    </div>
+    <!-- Game screen-->
+    <div id="game-screen" class="container">
+        <img id="header" src="assets/images/header_image.png" alt="90's Nickelodeon Cartoon Trivia">
+
+        <h2>Start!</h2>
+        <h3>Time Remaining: <div id="countdown"></div></h3>
+
+        <img id="chuckie" src="assets/images/chuckie.png" alt="Chuckie">
+
+        <img id="kablam" src="assets/images/kablam.png" alt="KaBlam!"> 
+        <!-- Trivia questions and answers-->
+        <h4>1) What's Tommy's last name from the show, <em>Rugrats</em>?</h4>
+
+            <div class="answer-choices">
+                <input type="radio" name="q1" class="radio-button" id="wrongA"> Johnson
+                <input type="radio" name="q1" class="radio-button" id="wrongB"> Burger
+                <input type="radio" name="q1" class="radio-button" id="correct1"> Pickles
+                <input type="radio" name="q1" class="radio-button" id="wrongC"> Williams
+            </div>    
+
+        <h4>2) What kind of house do CatDog live in?</h4>
+            
+            <div class="answer-choices">
+                <input type="radio" name="q2" class="radio-button" id="wrongD"> A bone and ball of yarn
+                <input type="radio" name="q2" class="radio-button" id="wrongE"> A fire hydrant
+                <input type="radio" name="q2" class="radio-button" id="wrongF"> A scratching post
+                <input type="radio" name="q2" class="radio-button" id="correct2"> A fish and a bone
+            </div>
+
+        <img id="catdog" src="assets/images/catdog.png" alt="CatDog">
+
+        <img id="doug" src="assets/images/doug.png" alt="Doug">
+
+        <h4>3) What is the name of Doug Funnie's dog?</h4>
+
+            <div class="answer-choices">
+                <input type="radio" name="q3" class="radio-button" id="wrongG"> Stinky
+                <input type="radio" name="q3" class="radio-button" id="correct3"> Porkchop
+                <input type="radio" name="q3" class="radio-button" id="wrongH"> Skeeter
+                <input type="radio" name="q3" class="radio-button" id="wrongI"> Ralph
+            </div>
+
+        <h4>4) Who is Arnold's best friend?</h4>
+
+        <div class="answer-choices">
+            <input type="radio" name="q4" class="radio-button" id="wrongJ"> Sid
+            <input type="radio" name="q4" class="radio-button" id="correct4"> Jerrold
+            <input type="radio" name="q4" class="radio-button" id="wrongK"> Harold
+            <input type="radio" name="q4" class="radio-button" id="wrongL"> Helga
+            </div>
+        <img id="rocko" src="assets/images/rocko.png" alt="Rocko">    
+        
+        <img id="angry_beavers" src="assets/images/angry_beavers.png" alt="Angry Beavers">
+
+        <h4>5) In <em>Rocko's Modern Life</em>, Rocko's angry neighbor is named Mr. Fathead.</h4>
+
+            <div class="answer-choices">
+                <input type="radio" name="q5" class="radio-button" id="correct5"> True
+                <input type="radio" name="q5" class="radio-button" id="wrongM"> False
+            </div>
+
+        <h4>6) What is Squid's real name on <em>Rocket Power</em>?</h4>
+        
+        <div class="answer-choices">
+
+            <input type="radio" name="q6" class="radio-button" id="wrongN"> Otto
+            <input type="radio" name="q6" class="radio-button" id="wrongO"> Reggie
+            <input type="radio" name="q6" class="radio-button" id="wrongP"> Twister
+            <input type="radio" name="q6" class="radio-button" id="correct6"> Sam
+            </div>
+
+        <img id="arnold" src="assets/images/arnold.png" alt="Arnold">
+
+        <img id="rocket_power" src="assets/images/rocket_power.png" alt="Rocket Power">
+
+        <h4>7) Henry and May are the co-hosts of show, <em>KaBlam</em>.</h4>
+
+            <div class="answer-choices">
+                <input type="radio" name="q7" class="radio-button" id="wrongP"> True
+                <input type="radio" name="q7" class="radio-button" id="correct7"> False
+            </div>
+        <h4>8) On the show, <em>The Angry Beavers</em>, Norbert and Daggett enjoy watching what on TV?</h4>
+
+        <div class="answer-choices">
+            
+            <input type="radio" name="q8" class="radio-button" id="wrongQ"> Westerns
+            <input type="radio" name="q8" class="radio-button" id="wrongR"> Comedies
+            <input type="radio" name="q8" class="radio-button" id="correct8"> Cheesy Horror Movies
+            <input type="radio" name="q8" class="radio-button" id="wrongS"> Game Shows
+        </div>
+    
+    </div>
+    <!-- Result screen-->
+    <div id="result-screen" class="container">
+
+        <img id="header" src="assets/images/header_image.png" alt="90's Nickelodeon Cartoon Trivia">
+
+        <h1>Commercial Break!</h1>
+        <h4>Correct Answers: <div id="correct-answers"></div></h4>
+        <h4>Incorrect Answers: <div id="incorrect-answers"></div></h4>
+        <h4>Unanswered: <div id="unanswered"></div></h4>
+        <button id="reset-button">Watch Reruns?</button>
+
+    </div>
+
+</body>
+</html>
