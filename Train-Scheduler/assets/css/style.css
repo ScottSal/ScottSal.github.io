@@ -1,0 +1,55 @@
+/* Custom Styling */
+body{
+    background-color: lightslategray;
+}
+
+.jumbotron{
+    background-color: purple;
+    outline: solid 2px black;
+    height: 55%;
+}
+
+.card-header{
+    background-color: gold;
+}
+
+.card {
+    outline: solid 2px black;
+}
+
+#add-train{
+    background-color: gold;
+    color: gold;
+}
+
+h4{
+    text-align: center;
+    color: gold;
+}
+
+.text-center{
+    font-size: 50px;
+    color: gold;
+}
+
+h5{
+    color: purple;
+}
+
+#add-user{
+    background-color: purple;
+    color: gold;
+    border: solid 2px black;
+}
+
+#add-user:hover {
+    background-color: gold;
+    color: purple;
+    border: solid 2px black;
+
+}
+
+.current-time {
+    text-align: center;
+    color: white;
+}
