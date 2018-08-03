@@ -1,11 +1,12 @@
 html,
 body {
     height: 100%;
+    background-color: slategray;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;
+    color: black;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -19,7 +20,7 @@ h3 {
 }
 
 section {
-    background-color: #fff;
+    background-color: slateblue;
     border: solid 1px #ccc;
 }
 
@@ -56,14 +57,16 @@ p a {
 
 nav a {
     font-size: 1 rem;
-    color: #777;
+    color: white;
     cursor: pointer;
     transition: 0.3s;
 }
 
 nav a:hover {
     color: gold;
+    background-color: purple;
     text-decoration: none;
+    box-shadow: 0 0 10px 5px purple;
 }
 
 a.portfolio {
@@ -76,13 +79,14 @@ div.content p {
 }
 
 img.profile {
-    width: 175px;
+    width: 200px;
     height: 200px;
     margin-right: 1.5rem;
 }
 
 div.wrapper {
-    background-image: url('../images/funky-lines.png');
+    background-color: slategray;
+    background-image: url('../images/code-background.png');
     background-attachment: fixed;
     flex: 1 0 auto;
     border-top: 2px solid #ccc;
@@ -146,7 +150,7 @@ h4.image-text {
     position: relative;
     text-align: center;
     margin-top: 25px;
-    background-color: #fff; 
+    background-color: slateblue; 
     height: 100px;
     width: 50px;
     border: solid 1px #ccc;  
@@ -159,6 +163,7 @@ img.social-logo {
 
 img.social-logo:hover {
     box-shadow: 0 0 10px 5px lightcoral;
+    background-color: lightcoral;
 }
 
 @media screen and (min-width: 576px) {
